@@ -1,4 +1,103 @@
-* {
-    margin: 5%;
-    font-family: 'Bai Jamjuree';
+@property --button-style {
 }
+
+* {
+  font-family: "Bai Jamjuree";
+  line-height: 2em !important;
+}
+
+.main {
+  background-image: url("./images/bg-header-desktop.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1,
+h3,
+h5 {
+  color: hsl(210, 10%, 33%) !important;
+}
+
+h3 {
+    margin-top: 5% !important;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+footer {
+  margin-top: 10% !important;
+  background-color: hsl(0, 0%, 98%);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ios-btn {
+  background-color: hsl(171, 66%, 44%) !important;
+  box-shadow: 2px 1px 5px 0px hsl(171, 66%, 34%);
+  color: white !important;
+  border-radius: 20px !important;
+  /* border: none;
+  padding: 6px 10px 8px 10px;
+  margin: 15px; */
+}
+
+.mac-btn {
+  background-color: hsl(233, 100%, 69%) !important;
+  box-shadow: 2px 1px 5px 0px hsl(233, 100%, 69%);
+  color: white !important;
+  border-radius: 20px !important;
+}
+
+.btn-text {
+  font-size: smaller;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.company-logos {
+  margin-top: 10% !important;
+  margin-bottom: 8% !important;
+}
+
+.comp-logo {
+    margin-bottom: 10% !important;
+}
+
+.header-four {
+    margin-bottom: 5% !important;
+}
+  
+.social-icons img{
+  margin-left: 15px;
+}
+
+.footer-logo {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+/* .section-two {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.side-subheaders {
+  text-align: left;
+  max-width: 50%;
+}
+
+.mac-screen-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.mac-screen {
+  max-width: 75%;
+} */
+
+/* .p1 {
+  width: 50% !important;
+} */
