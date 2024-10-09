@@ -1,5 +1,4 @@
-@property --button-style {
-}
+
 
 * {
   font-family: "Bai Jamjuree";
@@ -33,14 +32,15 @@ footer {
   background-repeat: no-repeat;
 }
 
+.top-logo {
+  margin-top: 10% !important;
+}
+
 .ios-btn {
   background-color: hsl(171, 66%, 44%) !important;
   box-shadow: 2px 1px 5px 0px hsl(171, 66%, 34%);
   color: white !important;
   border-radius: 20px !important;
-  /* border: none;
-  padding: 6px 10px 8px 10px;
-  margin: 15px; */
 }
 
 .mac-btn {
@@ -78,26 +78,3 @@ footer {
     height: 30px !important;
 }
 
-/* .section-two {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.side-subheaders {
-  text-align: left;
-  max-width: 50%;
-}
-
-.mac-screen-container {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.mac-screen {
-  max-width: 75%;
-} */
-
-/* .p1 {
-  width: 50% !important;
-} */
