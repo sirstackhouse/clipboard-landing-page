@@ -78,3 +78,7 @@ footer {
     height: 30px !important;
 }
 
+.footer-links {
+    margin-left: 10px;
+    margin-right: 10px;
+}
